@@ -44,14 +44,14 @@
             this.button_parkingAdd = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button_AllLookUp = new System.Windows.Forms.Button();
+            this.button_add = new System.Windows.Forms.Button();
             this.textBox_parkingSpot_lookUp = new System.Windows.Forms.TextBox();
             this.button_SelectedLookUp = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.timer_DisplayNowtime = new System.Windows.Forms.Timer(this.components);
             this.statusStrip_Now = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel_Now = new System.Windows.Forms.ToolStripStatusLabel();
-            this.button_add = new System.Windows.Forms.Button();
-            this.button_AllLookUp = new System.Windows.Forms.Button();
             this.parkingCarBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_parkingManager)).BeginInit();
@@ -207,10 +207,30 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Location = new System.Drawing.Point(355, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(300, 123);
+            this.groupBox1.Size = new System.Drawing.Size(300, 132);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "주차 공간 현황 관리";
+            // 
+            // button_AllLookUp
+            // 
+            this.button_AllLookUp.Location = new System.Drawing.Point(205, 41);
+            this.button_AllLookUp.Name = "button_AllLookUp";
+            this.button_AllLookUp.Size = new System.Drawing.Size(89, 23);
+            this.button_AllLookUp.TabIndex = 7;
+            this.button_AllLookUp.Text = "전체 조회";
+            this.button_AllLookUp.UseVisualStyleBackColor = true;
+            this.button_AllLookUp.Click += new System.EventHandler(this.button_AllLookUp_Click);
+            // 
+            // button_add
+            // 
+            this.button_add.Location = new System.Drawing.Point(205, 67);
+            this.button_add.Name = "button_add";
+            this.button_add.Size = new System.Drawing.Size(89, 23);
+            this.button_add.TabIndex = 6;
+            this.button_add.Text = "공간추가";
+            this.button_add.UseVisualStyleBackColor = true;
+            this.button_add.Click += new System.EventHandler(this.button_add_Click);
             // 
             // textBox_parkingSpot_lookUp
             // 
@@ -261,26 +281,6 @@
             this.toolStripStatusLabel_Now.Name = "toolStripStatusLabel_Now";
             this.toolStripStatusLabel_Now.Size = new System.Drawing.Size(12, 17);
             this.toolStripStatusLabel_Now.Text = "-";
-            // 
-            // button_add
-            // 
-            this.button_add.Location = new System.Drawing.Point(205, 67);
-            this.button_add.Name = "button_add";
-            this.button_add.Size = new System.Drawing.Size(89, 23);
-            this.button_add.TabIndex = 6;
-            this.button_add.Text = "공간추가";
-            this.button_add.UseVisualStyleBackColor = true;
-            this.button_add.Click += new System.EventHandler(this.button_add_Click);
-            // 
-            // button_AllLookUp
-            // 
-            this.button_AllLookUp.Location = new System.Drawing.Point(205, 41);
-            this.button_AllLookUp.Name = "button_AllLookUp";
-            this.button_AllLookUp.Size = new System.Drawing.Size(89, 23);
-            this.button_AllLookUp.TabIndex = 7;
-            this.button_AllLookUp.Text = "전체 조회";
-            this.button_AllLookUp.UseVisualStyleBackColor = true;
-            this.button_AllLookUp.Click += new System.EventHandler(this.button_AllLookUp_Click);
             // 
             // parkingCarBindingSource
             // 

@@ -82,6 +82,8 @@ namespace CarManager_Modified
 
                 conn.Close(); //연결 해제
 
+                // 수정 1
+
             }
         }
 

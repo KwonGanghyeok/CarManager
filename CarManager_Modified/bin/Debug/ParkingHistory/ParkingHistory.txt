@@ -86,3 +86,8 @@
 [2020-33-27 15:33:43]    위치: CarManager_Modified.Form1.dataGridView_parkingManager_CurrentCellChanged(Object sender, EventArgs e) 파일 D:\2020c\CarManager_MsSQL\CarManager_Modified\Form1.cs:줄 316
 [2020-34-27 15:34:01] 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
 [2020-34-27 15:34:01]    위치: CarManager_Modified.Form1.dataGridView_parkingManager_CurrentCellChanged(Object sender, EventArgs e) 파일 D:\2020c\CarManager_MsSQL\CarManager_Modified\Form1.cs:줄 316
+[2020-09-27 16:09:34] 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2020-09-27 16:09:34]    위치: CarManager_Modified.Form1.dataGridView_parkingManager_CurrentCellChanged(Object sender, EventArgs e) 파일 D:\2020c\CarManager_MsSQL\CarManager_Modified\Form1.cs:줄 316
+[2020-09-27 16:09:48] 주차공간 7에 1234을/를 주차하였습니다.
+[2020-09-27 16:09:48] 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+[2020-09-27 16:09:48]    위치: CarManager_Modified.Form1.dataGridView_parkingManager_CurrentCellChanged(Object sender, EventArgs e) 파일 D:\2020c\CarManager_MsSQL\CarManager_Modified\Form1.cs:줄 316
